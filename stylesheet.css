@@ -29,6 +29,7 @@ font-size: 50px;
 }
 
 h2{
+font-family: Arial, sans-serif;
 padding: 0px 15px 0px 15px;
 }
 
@@ -37,6 +38,14 @@ padding: 0px 15px 0px 15px;
 font-size: 25px;
 font-family: Arial, sans-serif;
 font-weight: 500;
+}
+
+h4{
+font-family: Arial, sans-serif;
+font-size: 18px;
+background-color: transparent;
+color: white;
+font-weight: 100;
 }
 
 .overskrift{
@@ -48,12 +57,31 @@ padding: 0px 15px 0px 15px;
 font-family: Arial, sans-serif;
 }
 
+li{
+font-family: Arial, sans-serif;
+font-size: 18px;
+}
+
 .bilde{
 padding: 30px 15px 0px 15px;
 }
 
-.dyr{
-object-fit: contain;;
+.liste{
+padding: 0px 15px 30px 50px;
+}
+
+.kontakt{
+background-color: #013826;
+padding: 15px 30px 0px 30px;
+text-align: center;
+min-height: 150px;
+font-size: 18px;
+
+}
+.mail{
+background-color: transparent;
+color: white;
+font-weight: bold;
 }
 
 @media only screen and (max-width: 900px) {
